@@ -1,0 +1,53 @@
+name: eco_track
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  firebase_core: ^3.8.0
+  cloud_firestore: ^5.4.5
+  firebase_auth: ^5.3.2
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  flutter_polls: ^0.1.6
+  webview_flutter: ^4.0.0
+  qr_flutter: ^4.1.0
+  intl: ^0.19.0
+  fluentui_system_icons: ^1.1.264
+  qr_code_scanner: ^1.0.1
+  flutter_inappwebview: ^5.7.1+1
+  #flutter_osm_plugin: ^0.70.4
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  flutter_map_location_marker: ^9.1.1
+  geocoding: ^3.0.0
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  image_gallery_saver: ^2.0.3
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/ecoTrackLogo.png
+   - assets/googleLogo.png
+   - assets/facebook.png
+   - assets/ProfileCircular.png
+   - assets/scanMeImage.jpeg
+   - assets/deliveryImage.jpeg
+   - assets/returnCashbackImage.jpeg
+   - assets/virtualTryOnImage.jpeg
+   - assets/Scanner.png
+   - assets/star.png
+   - assets/star1.png
